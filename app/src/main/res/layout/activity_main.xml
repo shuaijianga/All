@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000"
+    tools:context="com.example.administrator.attime.MainActivity">
+
+<TextView
+    android:includeFontPadding="false"
+    android:id="@+id/tv_time"
+    android:text="aaa"
+    android:gravity="center"
+    android:paddingBottom="20dp"
+    android:padding="10dp"
+    android:textSize="270dp"
+    android:layout_width="match_parent"
+    android:textColor="#939393"
+    android:layout_height="match_parent" />
+    <TextView
+        android:id="@+id/tv_dian"
+        android:layout_width="match_parent"
+        android:paddingBottom="130dp"
+        android:paddingLeft="5dp"
+        android:text=".  ."
+        android:textSize="250dp"
+        android:textColor="#939393"
+        android:gravity="center"
+        android:layout_height="match_parent" />
+
+</FrameLayout>
